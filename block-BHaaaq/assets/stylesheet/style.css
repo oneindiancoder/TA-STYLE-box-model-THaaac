@@ -1,0 +1,198 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* CSS code */
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* layout */
+
+.header,
+.box-section {
+  padding: 28px 28px 0px;
+}
+
+.row {
+  font-size: 0;
+  margin-top: 28px;
+}
+
+.red-box {
+  background-color: brown;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 200px;
+  height: 100px;
+  margin-right: 28px;
+}
+
+.solid {
+  border: 5px solid black;
+}
+
+.dashed {
+  border: 5px dashed black;
+}
+
+.double {
+  border: 5px double black;
+}
+
+.dotted {
+  border: 5px dotted black;
+}
+
+.white {
+  border: 5px solid white;
+}
+
+.text-box {
+  box-sizing: border-box;
+  background-color: red;
+  color: white;
+  width: 400px;
+  font-size: 12px;
+  line-height: 1.2;
+  /* layout */
+  padding: 16px;
+  border-left: 10px solid #418107;
+  border-top: 10px solid #244afb;
+  border-right: 10px solid #808080;
+  border-bottom: 10px solid #fdf732;
+
+  box-shadow: 0 10px 0 10px #812e80, 0 -10px 0 10px #812e80;
+}
+
+.text-box-section {
+  padding-left: 16px;
+  margin-top: 48px;
+}
