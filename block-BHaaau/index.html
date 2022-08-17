@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model Assignment 3</title>
+    <link rel="stylesheet" href="./assets/stylesheets/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>The Box Model, Box-sizing & Box-shadow</h1>
+      </div>
+    </header>
+    <hr />
+    <main>
+      <section>
+        <div class="container">
+          <header>
+            <h2>Exercise1</h2>
+          </header>
+          <article class="exercise-part">
+            <div class="e1-box"></div>
+            <ul class="e1-list">
+              <li class="e1-list-item">
+                <span class="e1-list-item-circle content"></span>Content
+              </li>
+              <li class="e1-list-item">
+                <span class="e1-list-item-circle padding"></span>Padding
+              </li>
+              <li class="e1-list-item">
+                <span class="e1-list-item-circle border"></span>Border
+              </li>
+              <li class="e1-list-item">
+                <span class="e1-list-item-circle margin"></span>Margin
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+      <hr />
+      <section>
+        <div class="container">
+          <header>
+            <h2>Exercise2</h2>
+          </header>
+
+          <article class="exercise-part">
+            <p>no border on these boxes.</p>
+            <div class="parent-box">
+              <div class="child-box"></div>
+              <div class="child-box"></div>
+              <div class="child-box"></div>
+            </div>
+          </article>
+          <hr />
+          <article class="exercise-part">
+            <p>1px border on these boxes.</p>
+            <div class="parent-box">
+              <div class="child-box border"></div>
+              <div class="child-box border"></div>
+              <div class="child-box border"></div>
+            </div>
+          </article>
+          <hr />
+          <article class="exercise-part">
+            <p>1px border on these boxes but they are in the same line.</p>
+            <div class="parent-box">
+              <div class="child-box border borderbox"></div>
+              <div class="child-box border borderbox"></div>
+              <div class="child-box border borderbox"></div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
